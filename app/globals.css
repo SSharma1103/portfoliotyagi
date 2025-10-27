@@ -117,6 +117,9 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-image: linear-gradient(to right, #8080801a 1px, transparent 1px),
+                      linear-gradient(to bottom, #8080801a 1px, transparent 1px);
+    background-size: 40px 40px;
   }
 }
 
